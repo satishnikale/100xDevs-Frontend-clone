@@ -11,7 +11,7 @@ export const SideBarItem = () => {
     return <div>
         {openMenu ? (
             <div className="fixed left-0 top-0 z-[1000] hidden h-full flex-col border-r border-primary/10 dark:border-r-gray-700 bg-background dark:bg-[#0a0b10] lg:flex min-w-16 dark:text-white w-80">
-                <a href="/" className="flex items-center gap-4 pt-5 pb-5 pl-4 border-b border-gray-700 text-2xl" onClick={(openMenu) => { setOpenMenu(!openMenu) }} >
+                <a href="/" className="flex items-center gap-4 pt-5 pb-5 pl-4 border-b dark:border-gray-700 text-2xl" onClick={(openMenu) => { setOpenMenu(!openMenu) }} >
                     <CloseMenuIcon />
                     <span>Menu</span>
                 </a>
