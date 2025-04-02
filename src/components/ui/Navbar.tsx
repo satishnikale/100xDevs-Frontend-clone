@@ -19,7 +19,7 @@ export const Navbar = () => {
       setDarkMode(!darkMode);
     };
 
-    return <div className="fixed top-0 z-[999] border-b-1 bg-[#f7f9fc] w-full pt-4 pb-4 dark:bg-[#0a0b10]">
+    return <div className="fixed top-0 z-0 border-b-1 bg-[#f7f9fc] w-full pt-4 pb-4 dark:bg-[#0a0b10]">
         <div className="flex justify-between w-10/12 mx-auto">
             <div className="flex items-center">
                 <a className="flex items-center gap-2" href="/" >
