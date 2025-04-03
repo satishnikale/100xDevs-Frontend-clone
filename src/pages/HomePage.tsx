@@ -4,8 +4,8 @@ import { SideBar } from "../components/ui/SideBar"
 
 export const HomePage = () => {
     return <div>
-        <Navbar />
-        <SideBar />
-        {/* <Card /> */}
+        {/* <Navbar />
+        <SideBar /> */}
+        <Card />
     </div>
 }
