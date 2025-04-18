@@ -55,19 +55,19 @@ export const SideBarItem = () => {
                 >
                     <OpenMenuIcon />
                 </p>
-                <div className="p-2">
-                    <a href="/" className="flex items-center gap-4 my-8 p-4 hover:bg-blue-600/15 hover:text-blue-500 hover:rounded-lg">
+                <div className="p-3">
+                    <a href="/" className="flex items-center gap-4 my-8 p-3 hover:bg-blue-600/15 hover:text-blue-500 hover:rounded-lg">
                         <HomeIcon />
                     </a>
-                    <a href="/" className="flex items-center gap-4 my-8 p-4 hover:bg-blue-600/15 hover:text-blue-500 hover:rounded-lg">
+                    <a href="/" className="flex items-center gap-4 my-8 p-3 hover:bg-blue-600/15 hover:text-blue-500 hover:rounded-lg">
                         <BookMarkIcon />
 
                     </a>
-                    <a href="/" className="flex items-center gap-4 my-8 p-4 hover:bg-blue-600/15 hover:text-blue-500 hover:rounded-lg">
+                    <a href="/" className="flex items-center gap-4 my-8 p-3 hover:bg-blue-600/15 hover:text-blue-500 hover:rounded-lg">
                         <QuestionIcon />
 
                     </a>
-                    <a href="/" className="flex items-center gap-4 my-8 p-4 hover:bg-blue-600/15 hover:text-blue-500 hover:rounded-lg">
+                    <a href="/" className="flex items-center gap-4 my-8 p-3 hover:bg-blue-600/15 hover:text-blue-500 hover:rounded-lg">
                         <WatchHistoryIcon />
                     </a>
                 </div>
