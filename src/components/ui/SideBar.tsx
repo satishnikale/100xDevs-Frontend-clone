@@ -5,8 +5,6 @@ import { BottomBar } from "./BottomBar";
 export const SideBar = () => {
     
     return <div>
-        <SideBarItem />               
-        <BottomBar />
-
+        <SideBarItem />
     </div>
 }
