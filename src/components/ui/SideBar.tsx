@@ -2,7 +2,7 @@ import { SideBarItem } from "./SideBarItem";
 
 export const SideBar = () => {
     
-    return <div>
+    return <div className="">
         <SideBarItem />
     </div>
 }

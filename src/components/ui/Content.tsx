@@ -1,7 +1,8 @@
 import { Card } from "./Card"
+import { Navbar } from "./Navbar"
 
 export const Content = () => {
-    return <div className=" bg-green-500 h-screen w-full">
-        <Card />
+    return <div className="">
+        
     </div>
 }
